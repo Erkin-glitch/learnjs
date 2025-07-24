@@ -79,3 +79,13 @@ function compare() {
 compare()
 console.log(compare());
 ```
+#### task 7
+```
+let text = "website"
+ 
+function divideLength(text){
+    return text.slice(0, Math.floor(text.length/2))
+}
+divideLength(text)
+console.log(divideLength(text));
+```
