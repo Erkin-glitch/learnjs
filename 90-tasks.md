@@ -108,3 +108,17 @@ function findLengthOfElement(list){
 }
 findLengthOfElement(list);
 ```
+#### task 9
+```
+let str = "good morning"
+
+function chopLast3(str) {
+    if (str.length>5) {
+        return str.slice(0, 9)
+    } else {
+        return str
+    }
+}
+chopLast3(str)
+console.log(chopLast3(str)) 
+```
