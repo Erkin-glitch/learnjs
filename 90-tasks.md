@@ -122,3 +122,13 @@ function chopLast3(str) {
 chopLast3(str)
 console.log(chopLast3(str)) 
 ```
+#### task 10
+```
+let text = "hello"
+
+function printFirstLetter(text) {
+    return text[0]
+}
+printFirstLetter(text)
+console.log(printFirstLetter(text));
+```
