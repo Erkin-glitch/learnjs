@@ -142,3 +142,26 @@ function printLastLetter(text){
 printLastLetter(text)
 console.log(printLastLetter(text));
 ```
+#### task 12
+```
+let word = "privet"
+
+function printThirdLetter(word) {
+    return word[2]
+}
+printThirdLetter(word)
+console.log(printThirdLetter(word));
+```
+#### task 13
+```
+let word = ["fun", "drink", "party"]
+
+function printFirstLetterS(arr) {
+         let str="";
+      for (let i = 0; i < arr.length; i++) {
+        str+=arr[i][0];
+      }
+      return str;
+}
+console.log(printFirstLetterS(word))
+```
