@@ -89,3 +89,22 @@ function divideLength(text){
 divideLength(text)
 console.log(divideLength(text));
 ```
+#### task 8
+```
+let list = "i love studying"
+
+function findLengthOfElement(list){
+    let k=0;
+    list+=" ";
+  for (let i = 0; i < list.length; i++) {
+    if (list[i] != " ") {
+        k++;
+    } else {
+        console.log(k);
+        k=0;
+    }
+  }
+  return "stop";
+}
+findLengthOfElement(list);
+```
