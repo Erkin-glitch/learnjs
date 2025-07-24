@@ -25,19 +25,14 @@ console.log(findElements(trim));
 let str = ""
 
 function checkEmpty(str){
-    for (let i = -1; i < str.length; i++) {
       if (str.length === 0) {
         console.log("empty");
       } 
-      else {
-        console.log(str[i]);
         
-      }
-        
-    }
     return "stop"
 }
 console.log(checkEmpty(str));
+
 
 ```
 #### task 4
@@ -45,35 +40,28 @@ console.log(checkEmpty(str));
 let string = "hello, everyone"
 
 function shortenToTen(string) {
-    for (let i = 0; i < string.length; i++) {
         if (string.length>10) {
-        console.log(string.slice(0,10));
-     } else {
-        console.log(string);
-        
-     }
-      }
-      return "working"
+      string=string.slice(0,10);
+     } 
+      return string;
 }
 console.log(shortenToTen(string));
+
 ```
 #### task 5
 ```
 let arr = [1,2,3,4]
-let mass = [1,2,]
+let mass = [1,2,5]
 
-function pushElement(arr){
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < mass.length; j++) {
-        }
+function pushElement(massive){
         if (mass.length >= 3) {
-            console.log(arr ,  mass); 
+        for (let i = 0; i < mass.length; i++) {
+            massive.push(mass[i])
             
-        } else {
-            console.log(arr);
-        }
     }
-    return "stop"
+        } 
+    return massive;
 }
 console.log(pushElement(arr));
+
 ```
