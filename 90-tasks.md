@@ -65,3 +65,17 @@ function pushElement(massive){
 console.log(pushElement(arr));
 
 ```
+#### task 6
+```
+let word = "salam"
+let text = "aleykum"
+
+function compare() {
+          if (word.length>= text.length) {
+            return word;
+          }
+           return text;
+        }
+compare()
+console.log(compare());
+```
