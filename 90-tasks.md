@@ -132,3 +132,13 @@ function printFirstLetter(text) {
 printFirstLetter(text)
 console.log(printFirstLetter(text));
 ```
+#### task 11
+```
+let text = "hello" 
+
+function printLastLetter(text){
+    return text[4];
+}
+printLastLetter(text)
+console.log(printLastLetter(text));
+```
