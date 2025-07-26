@@ -296,3 +296,11 @@ function checkFirstIndexes(str){
 }
 console.log(checkFirstIndexes(str));
 ```
+#### task 24
+```
+let word = "task-24.js"
+function checkLasrIndexes(word) {
+    return word.indexOf(".js")
+}
+console.log(checkLasrIndexes(word));
+```
