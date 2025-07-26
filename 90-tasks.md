@@ -325,3 +325,12 @@ function checkForIndex(text,part) {
 }
 console.log(checkForIndex("hello","erkin"));        
 ```
+#### finding index
+```
+let text = "goose"
+
+function findIndex(text){
+    return text.lastIndexOf('o')
+}
+console.log(findIndex(text));
+```
