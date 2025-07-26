@@ -208,3 +208,19 @@ function opposite(word) {
    }
 console.log(opposite(word));
 ```
+#### task 17
+```
+let text = "i have to go"
+
+function unevenIndexes(text) {
+   let result = ""
+    for (let i = 0; i < text.length; i++) {
+    if (i % 2 !== 0) {
+      result += text[i];
+    }
+   
+}
+return result;
+}
+console.log(unevenIndexes(text));
+```
