@@ -35,7 +35,7 @@ console.log(checkEmpty(str));
 
 
 ```
-#### deleteing part of the string if the length more than 10
+#### deleting part of the string if the length more than 10
 ```
 let string = "hello, everyone"
 
@@ -48,7 +48,7 @@ function shortenToTen(string) {
 console.log(shortenToTen(string));
 
 ```
-#### task 5
+#### adding array to another array if its length more than or equal 3
 ```
 let arr = [1,2,3,4]
 let mass = [1,2,5]
