@@ -182,3 +182,16 @@ function findJemini(str){
 console.log(findJemini(str1));
 console.log(findJemini(str2));
 ```
+#### task 15
+```
+let word = ["hello", "commotion", "promotion"]
+
+function printSecondLetters(arr) {
+         let str="";
+      for (let i = 0; i < arr.length; i++) {
+        str+=arr[i][1];
+      }
+      return str;
+}
+console.log(printSecondLetters(word))
+```
