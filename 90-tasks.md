@@ -165,3 +165,20 @@ function printFirstLetterS(arr) {
 }
 console.log(printFirstLetterS(word))
 ```
+#### task 14
+```
+let str1 = "work"
+let str2 = "jobs"
+ 
+let result = ""
+function findJemini(str){
+    let sum = 0;
+ for (let i = 0; i < str.length; i++) {
+    sum+=str[i].codePointAt(0);
+    console.log(str[i].codePointAt(0));
+ }
+ return sum;
+}
+console.log(findJemini(str1));
+console.log(findJemini(str2));
+```
