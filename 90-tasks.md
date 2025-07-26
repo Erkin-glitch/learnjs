@@ -152,7 +152,7 @@ function printThirdLetter(word) {
 printThirdLetter(word)
 console.log(printThirdLetter(word));
 ```
-#### printin first letters of every word in massive
+#### printin first letters of every word in array
 ```
 let word = ["fun", "drink", "party"]
 
@@ -182,7 +182,7 @@ function findJemini(str){
 console.log(findJemini(str1));
 console.log(findJemini(str2));
 ```
-#### task 15
+#### printing every second letter of words in array
 ```
 let word = ["hello", "commotion", "promotion"]
 
