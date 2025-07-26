@@ -208,7 +208,7 @@ function opposite(word) {
    }
 console.log(opposite(word));
 ```
-#### printing uneven indexes
+#### printing uneven indexes #17
 ```
 let text = "i have to go"
 
@@ -224,7 +224,7 @@ return result;
 }
 console.log(unevenIndexes(text));
 ```
-#### task 18
+#### encrypting string #19
 ```
 let str = "hello"
 
