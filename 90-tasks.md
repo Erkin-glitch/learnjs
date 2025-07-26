@@ -122,7 +122,7 @@ function chopLast3(str) {
 chopLast3(str)
 console.log(chopLast3(str)) 
 ```
-#### task 10
+#### printing only first letters
 ```
 let text = "hello"
 
