@@ -65,7 +65,7 @@ function pushElement(massive){
 console.log(pushElement(arr));
 
 ```
-#### task 6
+#### comparing the length of elements
 ```
 let word = "salam"
 let text = "aleykum"
