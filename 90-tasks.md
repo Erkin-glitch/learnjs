@@ -254,7 +254,7 @@ function print3Indexes(text) {
 }
 console.log(print3Indexes(text));
 ```
-#### task 20
+#### printing sum of two strings #20
 ```
 let str1 = "Erkin"
 let str2 = "jobs"
