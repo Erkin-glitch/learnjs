@@ -142,7 +142,7 @@ function printLastLetter(text){
 printLastLetter(text)
 console.log(printLastLetter(text));
 ```
-#### task 12
+#### printing the third letter
 ```
 let word = "privet"
 
