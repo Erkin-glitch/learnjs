@@ -314,3 +314,14 @@ function checkForIndex(str) {
 }
 console.log(checkForIndex("hello"));
 ```
+#### checking for index
+```
+
+function checkForIndex(text,part) {
+    if (text.indexOf(part) != -1) {
+       return "Yes"
+    }
+    return "No"
+}
+console.log(checkForIndex("hello","erkin"));        
+```
