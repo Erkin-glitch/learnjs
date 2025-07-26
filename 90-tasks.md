@@ -287,3 +287,12 @@ function checkIndexes(text) {
 }
 console.log(checkIndexes(text));
 ```
+#### task 23
+```
+let str = "hello"
+
+function checkFirstIndexes(str){
+    return str.indexOf("he") 
+}
+console.log(checkFirstIndexes(str));
+```
