@@ -20,7 +20,7 @@ function findElements(trim){
 }
 console.log(findElements(trim));
 ```
-#### task 3
+#### Checking if the string is empty
 ```
 let str = ""
 
