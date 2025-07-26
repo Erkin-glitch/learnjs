@@ -386,3 +386,12 @@ function lowerCase(str) {
 }
 console.log(lowerCase(str));
 ```
+#### changing string to UpperCase
+```
+let str = "hello"
+
+function UpperCase(str){
+    return str.toUpperCase()
+}
+console.log(UpperCase(str));
+```
