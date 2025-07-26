@@ -334,3 +334,17 @@ function findIndex(text){
 }
 console.log(findIndex(text));
 ```
+#### finding repeated a's
+```
+let str = "i'm a webaaaaa-programmer "
+
+function findRepeats(str){
+    let k = 0
+    while (str.indexOf("a") > -1) {
+        k++
+        str = str.replace("a", " ")
+    }
+    return k;
+}
+console.log(findRepeats(str));
+```
