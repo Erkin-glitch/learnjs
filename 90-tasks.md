@@ -278,7 +278,7 @@ function checkIndex(word){
 }
 console.log(checkIndex("apple"));
 ```
-#### task 22
+#### finding indexes of "lo" #22
 ```
 let text = "hello"
 
