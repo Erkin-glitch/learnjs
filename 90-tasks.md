@@ -89,7 +89,7 @@ function divideLength(text){
 divideLength(text)
 console.log(divideLength(text));
 ```
-#### task 8
+#### deleting probels from string
 ```
 let list = "i love studying"
 
