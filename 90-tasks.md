@@ -239,3 +239,18 @@ function encrypt(str){
 }
 console.log(encrypt(str));
 ```
+#### task 19
+```
+let text = "jow aro ybu "
+
+function print3Indexes(text) {
+    let sum = ""
+    for (let i = 0; i < text.length; i++) {
+        if (i % 3 === 0) {
+            sum+=text[i]
+        }
+    }
+    return sum
+}
+console.log(print3Indexes(text));
+```
