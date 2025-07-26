@@ -270,7 +270,7 @@ function findJemini(str){
 console.log(findJemini(str1));
 console.log(findJemini(str2));
 ```
-#### task 21
+#### checking index #21
 ```
 function checkIndex(word){
     return word.indexOf('a')
