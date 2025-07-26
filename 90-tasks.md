@@ -79,7 +79,7 @@ function compare() {
 compare()
 console.log(compare());
 ```
-#### task 7
+#### slicing element to its half
 ```
 let text = "website"
  
