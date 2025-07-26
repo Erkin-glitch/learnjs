@@ -287,7 +287,7 @@ function checkIndexes(text) {
 }
 console.log(checkIndexes(text));
 ```
-#### task 23
+#### checking first indexes #23
 ```
 let str = "hello"
 
