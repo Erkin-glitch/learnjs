@@ -165,7 +165,7 @@ function printFirstLetterS(arr) {
 }
 console.log(printFirstLetterS(word))
 ```
-#### task 14
+#### finding sum of Unicode
 ```
 let str1 = "work"
 let str2 = "jobs"
