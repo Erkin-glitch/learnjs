@@ -1,4 +1,4 @@
-#### finding the length of element
+#### finding the length of element #1
 ```
 let word = "hello"
 
@@ -9,7 +9,7 @@ function findLength(word) {
 console.log(findLength(word));
 
 ```
-#### finding length of element without probels
+#### finding length of element without probels #2
 ```
 let text = " space "
 let trim =   text.trim()
@@ -20,7 +20,7 @@ function findElements(trim){
 }
 console.log(findElements(trim));
 ```
-#### Checking if the string is empty
+#### Checking if the string is empty #3
 ```
 let str = ""
 
@@ -35,7 +35,7 @@ console.log(checkEmpty(str));
 
 
 ```
-#### deleting part of the string if the length more than 10
+#### deleting part of the string if the length more than 10 #4
 ```
 let string = "hello, everyone"
 
@@ -48,7 +48,7 @@ function shortenToTen(string) {
 console.log(shortenToTen(string));
 
 ```
-#### adding array to another array if its length more than or equal 3
+#### adding array to another array if its length more than or equal 3 #5
 ```
 let arr = [1,2,3,4]
 let mass = [1,2,5]
@@ -65,7 +65,7 @@ function pushElement(massive){
 console.log(pushElement(arr));
 
 ```
-#### comparing the length of elements
+#### comparing the length of elements #6
 ```
 let word = "salam"
 let text = "aleykum"
@@ -79,7 +79,7 @@ function compare() {
 compare()
 console.log(compare());
 ```
-#### slicing element to its half
+#### slicing element to its half #7
 ```
 let text = "website"
  
@@ -89,7 +89,7 @@ function divideLength(text){
 divideLength(text)
 console.log(divideLength(text));
 ```
-#### deleting probels from string
+#### deleting probels from string #8
 ```
 let list = "i love studying"
 
@@ -108,7 +108,7 @@ function findLengthOfElement(list){
 }
 findLengthOfElement(list);
 ```
-#### deleting last 3 indexes if elements length more than 5
+#### deleting last 3 indexes if elements length more than 5 #9
 ```
 let str = "good morning"
 
@@ -122,7 +122,7 @@ function chopLast3(str) {
 chopLast3(str)
 console.log(chopLast3(str)) 
 ```
-#### printing only first letters
+#### printing only first letters #10
 ```
 let text = "hello"
 
@@ -132,7 +132,7 @@ function printFirstLetter(text) {
 printFirstLetter(text)
 console.log(printFirstLetter(text));
 ```
-#### printing last letters 
+#### printing last letters #11
 ```
 let text = "hello" 
 
@@ -142,7 +142,7 @@ function printLastLetter(text){
 printLastLetter(text)
 console.log(printLastLetter(text));
 ```
-#### printing the third letter
+#### printing the third letter #12
 ```
 let word = "privet"
 
@@ -152,7 +152,7 @@ function printThirdLetter(word) {
 printThirdLetter(word)
 console.log(printThirdLetter(word));
 ```
-#### printin first letters of every word in array
+#### printin first letters of every word in array #13
 ```
 let word = ["fun", "drink", "party"]
 
@@ -165,7 +165,7 @@ function printFirstLetterS(arr) {
 }
 console.log(printFirstLetterS(word))
 ```
-#### finding sum of Unicode
+#### finding sum of Unicode #14
 ```
 let str1 = "work"
 let str2 = "jobs"
@@ -182,7 +182,7 @@ function findJemini(str){
 console.log(findJemini(str1));
 console.log(findJemini(str2));
 ```
-#### printing every second letter of words in array
+#### printing every second letter of words in array #15
 ```
 let word = ["hello", "commotion", "promotion"]
 
@@ -195,7 +195,7 @@ function printSecondLetters(arr) {
 }
 console.log(printSecondLetters(word))
 ```
-#### reversing word "hello
+#### reversing word "hello #16
 ```
 let word = "hello"
 
@@ -208,7 +208,7 @@ function opposite(word) {
    }
 console.log(opposite(word));
 ```
-#### task 17
+#### printing uneven indexes
 ```
 let text = "i have to go"
 
