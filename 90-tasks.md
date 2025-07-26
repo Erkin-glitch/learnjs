@@ -35,7 +35,7 @@ console.log(checkEmpty(str));
 
 
 ```
-#### task 4
+#### deleteing part of the string if the length more than 10
 ```
 let string = "hello, everyone"
 
