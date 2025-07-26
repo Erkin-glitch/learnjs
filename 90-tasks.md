@@ -195,7 +195,7 @@ function printSecondLetters(arr) {
 }
 console.log(printSecondLetters(word))
 ```
-#### task 16
+#### reversing word "hello
 ```
 let word = "hello"
 
