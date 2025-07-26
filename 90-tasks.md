@@ -224,3 +224,18 @@ return result;
 }
 console.log(unevenIndexes(text));
 ```
+#### task 18
+```
+let str = "hello"
+
+function encrypt(str){
+    let sum = 0
+    for (let i = 0; i < str.length; i++) {
+      sum+=str[i].codePointAt(0)
+      
+    }
+    return sum + 1
+    
+}
+console.log(encrypt(str));
+```
