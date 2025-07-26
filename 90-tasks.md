@@ -152,7 +152,7 @@ function printThirdLetter(word) {
 printThirdLetter(word)
 console.log(printThirdLetter(word));
 ```
-#### task 13
+#### printin first letters of every word in massive
 ```
 let word = ["fun", "drink", "party"]
 
