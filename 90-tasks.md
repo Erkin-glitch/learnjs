@@ -9,7 +9,7 @@ function findLength(word) {
 console.log(findLength(word));
 
 ```
-#### task 2
+#### finding length of element without probels
 ```
 let text = " space "
 let trim =   text.trim()
