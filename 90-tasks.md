@@ -132,7 +132,7 @@ function printFirstLetter(text) {
 printFirstLetter(text)
 console.log(printFirstLetter(text));
 ```
-#### task 11
+#### printing last letters 
 ```
 let text = "hello" 
 
