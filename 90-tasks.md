@@ -224,7 +224,7 @@ return result;
 }
 console.log(unevenIndexes(text));
 ```
-#### encrypting string #19
+#### encrypting string #18
 ```
 let str = "hello"
 
@@ -239,7 +239,7 @@ function encrypt(str){
 }
 console.log(encrypt(str));
 ```
-#### task 19
+#### collecting word from third indexes #19
 ```
 let text = "jow aro ybu "
 
