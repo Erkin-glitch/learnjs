@@ -296,7 +296,7 @@ function checkFirstIndexes(str){
 }
 console.log(checkFirstIndexes(str));
 ```
-#### task 24
+#### checking last indexes #24
 ```
 let word = "task-24.js"
 function checkLasrIndexes(word) {
@@ -304,7 +304,7 @@ function checkLasrIndexes(word) {
 }
 console.log(checkLasrIndexes(word));
 ```
-#### task 25
+#### checking with lastIndexOf #25
 ```
 
 
@@ -314,7 +314,7 @@ function checkForIndex(str) {
 }
 console.log(checkForIndex("hello"));
 ```
-#### checking for index
+#### checking for index #26
 ```
 
 function checkForIndex(text,part) {
@@ -325,7 +325,7 @@ function checkForIndex(text,part) {
 }
 console.log(checkForIndex("hello","erkin"));        
 ```
-#### finding index
+#### finding index #27
 ```
 let text = "goose"
 
@@ -334,7 +334,7 @@ function findIndex(text){
 }
 console.log(findIndex(text));
 ```
-#### finding repeated "a's"
+#### finding repeated "a's" #28
 ```
 let str = "i'm a webaaaaa-programmer "
 
@@ -348,7 +348,7 @@ function findRepeats(str){
 }
 console.log(findRepeats(str));
 ```
-#### finding repeated "cats"
+#### finding repeated "cats" #29
 ```
 let str = " i love my cat, cat is my everything"
 
@@ -362,7 +362,7 @@ function findCats(str) {
 }
 console.log(findCats(str));
 ```
-#### finding amount of repeats
+#### finding amount of repeats #30
 ```
 let str = "helloo"
 
@@ -377,7 +377,7 @@ function findAmountOfRepeats(str){
 }
 console.log(findAmountOfRepeats(str));
 ```
-#### changing string to LowerCase
+#### changing string to LowerCase #31
 ```
 let str = "Hello"
 
@@ -386,7 +386,7 @@ function lowerCase(str) {
 }
 console.log(lowerCase(str));
 ```
-#### changing string to UpperCase
+#### changing string to UpperCase #32
 ```
 let str = "hello"
 
