@@ -108,7 +108,7 @@ function findLengthOfElement(list){
 }
 findLengthOfElement(list);
 ```
-#### task 9
+#### deleting last 3 indexes if elements length more than 5
 ```
 let str = "good morning"
 
