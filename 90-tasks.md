@@ -254,3 +254,19 @@ function print3Indexes(text) {
 }
 console.log(print3Indexes(text));
 ```
+#### task 20
+```
+let str1 = "Erkin"
+let str2 = "jobs"
+ 
+let result = ""
+function findJemini(str){
+    let sum = 0;
+    for (let i = 0; i < str.length; i++) {
+        sum+=str[i].codePointAt(0) / str.length;;
+    }
+    return sum 
+}
+console.log(findJemini(str1));
+console.log(findJemini(str2));
+```
