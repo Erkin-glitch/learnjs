@@ -195,3 +195,16 @@ function printSecondLetters(arr) {
 }
 console.log(printSecondLetters(word))
 ```
+#### task 16
+```
+let word = "hello"
+
+function opposite(word) {
+  let reverse = ""
+    for (let i = word.length - 1; i>=0; i--) {
+      reverse+= word[i]
+    }
+    return reverse
+   }
+console.log(opposite(word));
+```
