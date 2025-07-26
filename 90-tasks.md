@@ -377,7 +377,7 @@ function findAmountOfRepeats(str){
 }
 console.log(findAmountOfRepeats(str));
 ```
-#### changing string to UpperCase
+#### changing string to LowerCase
 ```
 let str = "Hello"
 
