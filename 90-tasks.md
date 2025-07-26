@@ -304,3 +304,13 @@ function checkLasrIndexes(word) {
 }
 console.log(checkLasrIndexes(word));
 ```
+#### task 25
+```
+
+
+function checkForIndex(str) {
+    let i = str.lastIndexOf("l")
+    return i
+}
+console.log(checkForIndex("hello"));
+```
