@@ -278,3 +278,12 @@ function checkIndex(word){
 }
 console.log(checkIndex("apple"));
 ```
+#### task 22
+```
+let text = "hello"
+
+function checkIndexes(text) {
+    return text.indexOf("lo")
+}
+console.log(checkIndexes(text));
+```
