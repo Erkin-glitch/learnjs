@@ -334,7 +334,7 @@ function findIndex(text){
 }
 console.log(findIndex(text));
 ```
-#### finding repeated a's
+#### finding repeated "a's"
 ```
 let str = "i'm a webaaaaa-programmer "
 
@@ -347,4 +347,33 @@ function findRepeats(str){
     return k;
 }
 console.log(findRepeats(str));
+```
+#### finding repeated "cats"
+```
+let str = " i love my cat, cat is my everything"
+
+function findCats(str) {
+    let k = 0
+      while (str.indexOf("cat") > -1) {
+        k++
+        str = str.replace("cat", " ")
+    }
+    return k;
+}
+console.log(findCats(str));
+```
+#### finding amount of repeats
+```
+let str = "helloo"
+
+function findAmountOfRepeats(str){
+    let k = 0
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === str[i + 1]) {
+            k++
+        }
+    }
+    return k;
+}
+console.log(findAmountOfRepeats(str));
 ```
