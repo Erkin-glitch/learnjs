@@ -449,3 +449,21 @@ function UpperCase(word){
 }
 console.log(UpperCase(word));
 ```
+#### return vowels in uppercase
+```
+let str = "tired "
+let vowels = "aeuio"
+let result = ""
+function vowelsToUpperCase(str){
+  for (let i = 0; i < str.length; i++) {
+    if (vowels.includes(str[i])) {
+        result += str[i].toUpperCase()
+    } else{
+        console.log(result);
+        result += str[i]
+    }
+  }
+  
+}
+console.log(vowelsToUpperCase(str));
+```
