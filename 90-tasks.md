@@ -632,3 +632,13 @@ function add(str){
 }
 console.log(add(str));
 ```
+#### repeat the string 3 times
+```
+let str = "hello"
+
+function repeatString(str){
+    console.log(str.repeat(3));
+    
+}
+repeatString(str)
+```
