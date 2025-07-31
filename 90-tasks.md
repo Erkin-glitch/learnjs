@@ -535,11 +535,17 @@ let split = str.split(" ")
 let center = Math.floor(split.length/2)
 console.log(split[center]);
 ```
-#### print without probels
+#### print without probels #45
 ```
 let str = " internet "
 
 let res = str.trim()
 console.log(res);
 ```
+#### print email address without @ part #46
+```
+let str = "rustamowerkin94@gmail.com"
+    let pos = str.indexOf("@")
+    let result = str.slice(0, pos )
+    console.log(result);
 ```
