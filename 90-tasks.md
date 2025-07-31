@@ -549,3 +549,11 @@ let str = "rustamowerkin94@gmail.com"
     let result = str.slice(0, pos )
     console.log(result);
 ```
+#### replace letters
+```
+let str = "hello"
+str = str.replace("e", "()")
+str=str.replace("l", "()")
+str = str.replace("h","()")
+console.log(str);
+```
