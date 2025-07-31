@@ -435,7 +435,7 @@ function firstLetterBig(word){
 }
 console.log(firstLetterBig(word));
 ```
-#### return word in uppercase
+#### return word in uppercase #36
 ```
 let word = "hello, world"
 
@@ -449,7 +449,7 @@ function UpperCase(word){
 }
 console.log(UpperCase(word));
 ```
-#### return vowels in uppercase
+#### return vowels in uppercase #37
 ```
 let str = "tired "
 let vowels = "aeuio"
@@ -466,4 +466,21 @@ function vowelsToUpperCase(str){
   
 }
 console.log(vowelsToUpperCase(str));
+```
+#### return string to CamelCase
+```
+let str = "hello world"
+    let k = ""
+    let i = 0
+        while (i < str.length) {
+        if (str[i] != " ") {
+            k += str[i]
+        } else {
+         k += str [i + 1].toUpperCase()
+         i++;
+      }
+       i++;
+
+    }
+    console.log(k);
 ```
