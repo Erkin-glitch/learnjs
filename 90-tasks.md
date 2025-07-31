@@ -521,3 +521,9 @@ function printFirstLetters(str){
 console.log(printFirstLetters(str));
 ```
 ```
+#### delete last 3 letters #43
+```
+let str = "hello"
+
+console.log(str.slice(0,2));
+```
