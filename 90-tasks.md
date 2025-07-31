@@ -609,3 +609,12 @@ function replaceFirstE(str){
 }
 replaceFirstE(str)
 ```
+#### return without probels #54
+```
+let str = " easy work "
+
+function remove(str){
+    console.log(str.trim());
+}
+remove(str)
+```
