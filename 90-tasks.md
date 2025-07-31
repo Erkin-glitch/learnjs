@@ -395,7 +395,7 @@ function UpperCase(str){
 }
 console.log(UpperCase(str));
 ```
-#### comparing without register
+#### comparing without register #33
 ```
 let word = "hello"
 let text = "Hello"
@@ -412,7 +412,7 @@ function comparingWithouRegiste(){
 }
 console.log(comparingWithouRegiste());
 ```
-#### checking letters 
+#### checking letters #34
 ```
 let str = "Hello"
 
@@ -426,7 +426,7 @@ function checkLetter(str){
 }
 console.log(checkLetter(str));
 ```
-#### return first letter big
+#### return first letter big #35
 ```
 let word = "hello"
 
@@ -434,4 +434,18 @@ function firstLetterBig(word){
     return word[0].toUpperCase()
 }
 console.log(firstLetterBig(word));
+```
+#### return word in uppercase
+```
+let word = "hello, world"
+
+function UpperCase(word){
+        for (let i = 0; i < word.length; i++) {
+      if (word[i] === 0) {
+        return " "
+      }
+      return word[0].toUpperCase() + word.slice(1).toLowerCase()   
+     } 
+}
+console.log(UpperCase(word));
 ```
