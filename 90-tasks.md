@@ -412,3 +412,17 @@ function comparingWithouRegiste(){
 }
 console.log(comparingWithouRegiste());
 ```
+#### checking letters 
+```
+let str = "Hello"
+
+function checkLetter(str){
+    let result = str.toUpperCase()
+    if (result === str.toLowerCase()) {
+        return true
+    }else{
+        return false
+    }
+}
+console.log(checkLetter(str));
+```
