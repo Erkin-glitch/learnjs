@@ -642,3 +642,19 @@ function repeatString(str){
 }
 repeatString(str)
 ```
+#### remove all the numberws from the string
+```
+let str = "i eat 3 or 4 times a day"
+
+
+function remove(str) {
+    let num = "123456789"
+    let res = ""
+    for (let i = 0; i < str.length; i++) {
+    if (!num.includes(str[i])) {
+    res +=str[i]
+    }  
+}    console.log(res);
+}
+remove(str)
+```
