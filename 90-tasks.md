@@ -571,3 +571,13 @@ let str = "cat"
 console.log(str.replace("cat", "dog"));
 
 ```
+#### replace all probels
+```
+let str = "i want to sleep"
+ 
+function remove(str){
+   console.log(str.replaceAll(" ", ""));
+    
+}
+remove(str)
+```
