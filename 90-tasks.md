@@ -557,10 +557,17 @@ str=str.replace("l", "()")
 str = str.replace("h","()")
 console.log(str);
 ```
-#### replace the word in the brackets
+#### replace the word in the brackets #48
 ```
 let str = "i (love) working out"
 
 str = str.replace("(love)", " ")
 console.log(str);
+```
+#### replace word "cat" to "dog"
+```
+let str = "cat"
+
+console.log(str.replace("cat", "dog"));
+
 ```
