@@ -484,3 +484,10 @@ let str = "hello world"
     }
     console.log(k);
 ```
+#### return to snakecase
+```
+let str = "hello world"
+
+str = str.replace(" ", "_")
+console.log(str);
+```
