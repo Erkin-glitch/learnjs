@@ -426,3 +426,12 @@ function checkLetter(str){
 }
 console.log(checkLetter(str));
 ```
+#### return first letter big
+```
+let word = "hello"
+
+function firstLetterBig(word){
+    return word[0].toUpperCase()
+}
+console.log(firstLetterBig(word));
+```
