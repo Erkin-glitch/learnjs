@@ -395,3 +395,20 @@ function UpperCase(str){
 }
 console.log(UpperCase(str));
 ```
+#### comparing without register
+```
+let word = "hello"
+let text = "Hello"
+
+function comparingWithouRegiste(){
+    if (word.toLowerCase === text.toLowerCase) {
+        console.log("equal");
+        
+    } else{
+        console.log("not equal");
+        
+    }
+    return "works"
+}
+console.log(comparingWithouRegiste());
+```
