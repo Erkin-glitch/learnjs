@@ -564,20 +564,29 @@ let str = "i (love) working out"
 str = str.replace("(love)", " ")
 console.log(str);
 ```
-#### replace word "cat" to "dog"
+#### replace word "cat" to "dog" #49
 ```
 let str = "cat"
 
 console.log(str.replace("cat", "dog"));
 
 ```
-#### replace all probels
+#### replace all probels #50
 ```
 let str = "i want to sleep"
  
 function remove(str){
    console.log(str.replaceAll(" ", ""));
     
+}
+remove(str)
+```
+#### remove all commas #51
+```
+let str = "i just, need some, space"
+
+function remove(str){
+    console.log(str.replaceAll(",", " "));
 }
 remove(str)
 ```
