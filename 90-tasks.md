@@ -491,3 +491,12 @@ let str = "hello world"
 str = str.replace(" ", "_")
 console.log(str);
 ```
+#### delete "ell" from hello
+```
+let str = "hello"
+
+function deleteThreeLetters(str){
+console.log(str.slice(1,4));
+}
+deleteThreeLetters(str)
+```
