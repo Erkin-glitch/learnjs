@@ -599,3 +599,13 @@ function removeLetterA(str){
 }
 removeLetterA(str)
 ```
+#### replace only first letter E #53
+```
+let str = "heeello"
+
+function replaceFirstE(str){
+    console.log(str.replace("e", "3"));
+    
+}
+replaceFirstE(str)
+```
