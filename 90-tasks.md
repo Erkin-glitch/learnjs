@@ -527,12 +527,19 @@ let str = "hello"
 
 console.log(str.slice(0,2));
 ```
-#### print the center of the string
+#### print the center of the string #44
 ```
 let str = "i love studying"
 
 let split = str.split(" ")
 let center = Math.floor(split.length/2)
 console.log(split[center]);
+```
+#### print without probels
+```
+let str = " internet "
+
+let res = str.trim()
+console.log(res);
 ```
 ```
