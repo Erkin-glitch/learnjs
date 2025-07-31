@@ -500,3 +500,14 @@ console.log(str.slice(1,4));
 }
 deleteThreeLetters(str)
 ```
+#### delete last letters 
+```
+let str = "morning "
+
+function printFirstLetters(str){
+    console.log(str.slice(0,4));
+    
+}
+console.log(printFirstLetters(str));
+```
+```
