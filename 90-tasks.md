@@ -549,11 +549,18 @@ let str = "rustamowerkin94@gmail.com"
     let result = str.slice(0, pos )
     console.log(result);
 ```
-#### replace letters
+#### replace letters #47
 ```
 let str = "hello"
 str = str.replace("e", "()")
 str=str.replace("l", "()")
 str = str.replace("h","()")
+console.log(str);
+```
+#### replace the word in the brackets
+```
+let str = "i (love) working out"
+
+str = str.replace("(love)", " ")
 console.log(str);
 ```
