@@ -618,3 +618,17 @@ function remove(str){
 }
 remove(str)
 ```
+#### add 00 to the beggining of the string
+```
+let str = "i love everything"
+
+function add(str){
+    let str1 = "00"
+    if (str.length>10) {
+        return str1 + str
+    } else {
+        return str
+    }
+}
+console.log(add(str));
+```
