@@ -500,6 +500,16 @@ console.log(str.slice(1,4));
 }
 deleteThreeLetters(str)
 ```
+#### delete first 2 letters
+```
+let str = "working"
+
+function deleteFirst2Letters(str) {
+    console.log(str.slice(2,7));
+    return "works"
+}
+console.log(deleteFirst2Letters(str));
+```
 #### delete last letters 
 ```
 let str = "morning "
