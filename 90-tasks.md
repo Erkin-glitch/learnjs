@@ -590,3 +590,12 @@ function remove(str){
 }
 remove(str)
 ```
+#### replace all A's #52
+```
+let str = "ayallyalar"
+
+function removeLetterA(str){
+    console.log(str.replaceAll("a", "@"));
+}
+removeLetterA(str)
+```
