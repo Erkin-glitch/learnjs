@@ -467,7 +467,7 @@ function vowelsToUpperCase(str){
 }
 console.log(vowelsToUpperCase(str));
 ```
-#### return string to CamelCase
+#### return string to CamelCase #38
 ```
 let str = "hello world"
     let k = ""
@@ -484,14 +484,14 @@ let str = "hello world"
     }
     console.log(k);
 ```
-#### return to snakecase
+#### return to snakecase #39
 ```
 let str = "hello world"
 
 str = str.replace(" ", "_")
 console.log(str);
 ```
-#### delete "ell" from hello
+#### delete "ell" from hello #40
 ```
 let str = "hello"
 
@@ -500,7 +500,7 @@ console.log(str.slice(1,4));
 }
 deleteThreeLetters(str)
 ```
-#### delete first 2 letters
+#### delete first 2 letters #41
 ```
 let str = "working"
 
@@ -510,7 +510,7 @@ function deleteFirst2Letters(str) {
 }
 console.log(deleteFirst2Letters(str));
 ```
-#### delete last letters 
+#### delete last letters #42
 ```
 let str = "morning "
 
