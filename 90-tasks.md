@@ -667,3 +667,13 @@ console.log(str.replace(".HTML", " "));
 }
 replaceHTML(str)
 ```
+#### split string #59
+```
+let str = '"i want to sleep'
+
+function splitString(str){
+    console.log(str.split(" "));
+    
+}
+splitString(str)
+```
