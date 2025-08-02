@@ -618,7 +618,7 @@ function remove(str){
 }
 remove(str)
 ```
-#### add 00 to the beggining of the string
+#### add 00 to the beggining of the string #55
 ```
 let str = "i love everything"
 
@@ -632,7 +632,7 @@ function add(str){
 }
 console.log(add(str));
 ```
-#### repeat the string 3 times
+#### repeat the string 3 times #56
 ```
 let str = "hello"
 
@@ -642,7 +642,7 @@ function repeatString(str){
 }
 repeatString(str)
 ```
-#### remove all the numberws from the string
+#### remove all the numberws from the string #57
 ```
 let str = "i eat 3 or 4 times a day"
 
@@ -657,4 +657,13 @@ function remove(str) {
 }    console.log(res);
 }
 remove(str)
+```
+#### remove teg HTML #58
+```
+let str = "class.HTML "
+
+function replaceHTML(str){
+console.log(str.replace(".HTML", " "));
+}
+replaceHTML(str)
 ```
