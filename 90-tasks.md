@@ -677,3 +677,13 @@ function splitString(str){
 }
 splitString(str)
 ```
+#### split csv string
+```
+let str = "i'm tired, i worked today"
+
+function splitCSVstring(str){
+    console.log(str.split(","));
+    
+}
+splitCSVstring(str)
+```
