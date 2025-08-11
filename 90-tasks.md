@@ -677,7 +677,7 @@ function splitString(str){
 }
 splitString(str)
 ```
-#### split csv string
+#### split csv string #60
 ```
 let str = "i'm tired, i worked today"
 
@@ -686,4 +686,14 @@ function splitCSVstring(str){
     
 }
 splitCSVstring(str)
+```
+#### split email #61
+```
+let str = "rustamowerkin94@gmail.com"
+
+function splitEmail(str){
+    console.log(str.split("@"));
+    
+}
+splitEmail(str)
 ```
