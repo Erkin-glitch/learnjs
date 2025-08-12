@@ -697,3 +697,15 @@ function splitEmail(str){
 }
 splitEmail(str)
 ```
+#### join string #62
+```
+let arr = ["apple, orange, juice"]
+
+
+
+function joinString(arr){
+    console.log(arr.join(", "));
+    
+}
+joinString(arr)
+```
