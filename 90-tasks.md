@@ -709,3 +709,13 @@ function joinString(arr){
 }
 joinString(arr)
 ```
+#### split into words #63
+```
+let str = "i have to work"
+
+function splitIntoWords(str){
+    console.log(str.split(" "));
+    
+}
+splitIntoWords(str)
+```
