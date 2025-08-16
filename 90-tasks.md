@@ -719,3 +719,13 @@ function splitIntoWords(str){
 }
 splitIntoWords(str)
 ```
+#### split into letters
+```
+let str = "hello"
+
+function splitLetters(str){
+    console.log(str.split(""));
+    
+}
+splitLetters(str)
+```
