@@ -719,7 +719,7 @@ function splitIntoWords(str){
 }
 splitIntoWords(str)
 ```
-#### split into letters
+#### split into letters #64
 ```
 let str = "hello"
 
@@ -728,4 +728,14 @@ function splitLetters(str){
     
 }
 splitLetters(str)
+```
+#### join strings #65
+```
+let arr = ["apple", "banana", "grapefruit", "onion", "carrot"]
+
+function joinString(arr){
+    console.log(arr.join("-"));
+    
+}
+joinString(arr)
 ```
