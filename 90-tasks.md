@@ -739,3 +739,9 @@ function joinString(arr){
 }
 joinString(arr)
 ```
+#### slice string #66
+```
+let arr = [" ", "apple", "banana"]
+   
+console.log(  arr.splice(1, 2));
+ ```
