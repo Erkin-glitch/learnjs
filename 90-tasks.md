@@ -745,7 +745,7 @@ let arr = [" ", "apple", "banana"]
    
 console.log(  arr.splice(1, 2));
  ```
-#### split on parts
+#### split on parts #67
 ```
 let str = "2025-07-22"
 
